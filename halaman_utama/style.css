@@ -16,7 +16,7 @@
 
 .banner{
     height: 400px;
-    background-image: url('halaman1.jpg');
+    background: url('../halaman_utama/halaman1.png');
     background-size: cover;
     background-position: center;
 }
@@ -26,7 +26,7 @@ height: 140px;
 }
 
 .highlighted-kategori {
-    border: solid;
+
     height: 250px;
 }
 
@@ -35,17 +35,23 @@ height: 140px;
 }
 
 .kategori-baju-pria {
-    background : linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 4)), url('xampp02/htdocs/websitetokoonline/baju-pria.jpg');
+    background : url('../halaman_utama/bajupria.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .kategori-baju-pria img {
- height: 80px;
+ height: 25px;
 }
 
 .kategori-baju-wanita {
-    background : linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 4)), url('../image/baju1.jpg');
+    background : url('../halaman_utama/bajuwanita.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.kategori-baju-anak-anak {
+    background : url('../halaman_utama/bajuanak.jpg');
     background-size: cover;
     background-position: center;
 }
